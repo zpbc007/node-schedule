@@ -5,6 +5,10 @@
   "repository": "https://github.com/zpbc007/node-schedule.git",
   "author": "zhaopeng <719197352@qq.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ./dist",
+    "build": "tsc"
+  },
   "dependencies": {
     "node-cron": "^2.0.3"
   },
